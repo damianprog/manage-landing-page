@@ -1,0 +1,174 @@
+/* 
+### Primary
+
+Bright Red: #f25f3a
+Dark Blue: #242d52
+
+### Neutral
+
+Dark Grayish Blue: #9095a7
+Very Dark Blue: #1d1e25
+Very Pale Red: #ffefeb
+Vary Light Gray: #fafafa
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wrapper {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-top: 50px;
+}
+
+.main-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header ul {
+  display: flex;
+  list-style-type: none;
+  color: #242d52;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-header ul li {
+  cursor: pointer;
+  padding: 0 18px;
+}
+
+.main-button {
+  padding: 12px 30px;
+  border-radius: 100px;
+  background: #f25f3a;
+  color: #fff;
+  font-size: 14px;
+  font-size: 500;
+}
+
+.introduction {
+  margin-top: 100px;
+}
+
+.introduction .wrapper {
+  display: flex;
+}
+
+.introduction-description .main-button {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.introduction-description h2 {
+  color: #242d52;
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+.introduction-description,
+.introduction-showcase {
+  width: 50%;
+}
+
+.introduction-description p {
+  max-width: 350px;
+  margin-top: 40px;
+}
+
+.introduction-showcase {
+  position: relative;
+}
+
+.introduction-showcase-background {
+  position: absolute;
+  z-index: -1;
+  bottom: 81px;
+  left: 55px;
+}
+
+.introduction-showcase img {
+  margin-right: -20px;
+  display: inline-block;
+}
+
+.difference {
+  margin-top: 100px;
+}
+
+.difference .wrapper {
+  display: flex;
+}
+
+.difference-description h3 {
+  color: #242d52;
+  font-size: 38px;
+}
+
+.difference-description,
+.difference-list {
+  width: 50%;
+}
+
+.difference-description p {
+  max-width: 350px;
+  margin-top: 40px;
+}
+
+.difference-list {
+  list-style-type: none;
+}
+
+.difference-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.difference-list-item-description h4 {
+  color: #242d52;
+  margin-top: 13px;
+}
+
+.difference-list-item-description {
+  padding-left: 30px;
+}
+
+.difference-list-item-description p {
+  margin-top: 25px;
+}
